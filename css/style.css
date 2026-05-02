@@ -70,7 +70,7 @@ body {
             }
         }
 
-        & .line {
+        & .nav-line {
             border: 0.75px solid #a8a8a8;
             width: 100%;
         }
@@ -201,13 +201,13 @@ body {
                     background-position: center 25%;
                 }
 
-                & .last{
+                & .last {
                     background-color: #FFCE31;
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
-                    & p{
+                    & p {
                         font-size: 13.5px;
                         font-weight: 500;
                         line-height: 15px;
@@ -215,16 +215,98 @@ body {
                 }
             }
 
-            & p{
+            & p {
                 font-size: 13.5px;
                 font-weight: 400;
                 line-height: 15px;
             }
         }
 
-        & .right{
+        & .right {
             display: flex;
             gap: 64.5px;
+        }
+    }
+
+    & .line{
+        width: 100%;
+        border: 0.75px solid #a8a8a8;
+        margin-top: 60px;
+    }
+}
+
+.feature-sec {
+    display: flex;
+    gap: 73.5px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 110px;
+
+    & .heading {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & h2 {
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 64.5px;
+            max-width: 621px;
+        }
+
+        & p {
+            font-size: 16.5px;
+            line-height: 27px;
+            max-width: 370px;
+        }
+    }
+
+    & .bottom {
+        display: flex;
+        gap: 75px;
+        width: 100%;
+        justify-content: center;
+
+        & .card {
+            display: flex;
+            flex-direction: column;
+            padding: 37.5px 67.5px 0px 68.25px;
+            align-items: center;
+            max-width: 575px;
+            height: 655px;
+            border-radius: 30px;
+            background-color: #fff0bf;
+            gap: 28px;
+            justify-content: flex-start;
+            
+
+            & img{
+                max-width: 400px;
+                height: auto;
+            }
+
+            & .text{
+                margin-bottom: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 29px;
+                align-items: center;
+
+                & h2{
+                    font-size: 27px;
+                    font-weight: 700;
+                    line-height: 31.5px;
+                }
+
+                & p{
+                    font-size: 15px;
+                    line-height: 22.5px;
+                }
+            }
         }
     }
 }
