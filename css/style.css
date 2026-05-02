@@ -370,3 +370,34 @@ body {
         }
     }
 }
+
+.download-sec{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFCE31;
+    width: 100%;
+    height: 592px;
+    gap: 50px;
+    margin-top: 143px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 262px;
+
+    & h2{
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 87px;
+        max-width: fit-content;
+    }
+
+    & .stores{
+        max-width: 435px;
+        display: flex;
+        gap: 16.5px;
+
+        & img{
+            width: 209px;
+            height: auto;
+        }
+    }
+}
