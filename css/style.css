@@ -248,8 +248,9 @@ body {
     & .heading {
         width: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        gap: 150px;
+        justify-content: center;
 
         & h2 {
             font-size: 54px;
@@ -341,29 +342,30 @@ body {
         }
     }
 
-    & img{
+    & img {
         max-width: 1230px;
         height: auto;
     }
 
-    & .bottom{
+    & .bottom {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 100px;
         width: 100%;
 
-        & div{
+        & div {
             display: flex;
             flex-direction: column;
             gap: 8.25px;
 
-            & h2{
+            & h2 {
                 font-family: "Manrope";
                 font-size: 90px;
                 font-weight: 700;
                 letter-spacing: -3px;
             }
 
-            & p{
+            & p {
                 font-size: 16.5px;
                 line-height: 27px;
             }
@@ -371,7 +373,7 @@ body {
     }
 }
 
-.download-sec{
+.download-sec {
     display: flex;
     flex-direction: column;
     background-color: #FFCE31;
@@ -383,21 +385,96 @@ body {
     align-items: center;
     padding: 0px 262px;
 
-    & h2{
+    & h2 {
         font-size: 75px;
         font-weight: 700;
         line-height: 87px;
         max-width: fit-content;
     }
 
-    & .stores{
+    & .stores {
         max-width: 435px;
         display: flex;
         gap: 16.5px;
 
-        & img{
+        & img {
             width: 209px;
             height: auto;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 0px 104px 23px 104px;
+    margin-top: 105px;
+
+    & main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        & .brand {
+            display: flex;
+            flex-direction: column;
+            gap: 19.5px;
+            width: 40%;
+
+            & img {
+                width: 141px;
+                height: auto;
+            }
+
+            & p {
+                font-size: 16.5px;
+                line-height: 27px;
+
+            }
+        }
+
+        & .links {
+            display: flex;
+            gap: 90px;
+            max-width: fit-content;
+
+            & ul {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                list-style: none;
+            }
+
+            & a {
+                font-size: 16.5px;
+                font-weight: 400;
+                color: #000;
+                text-decoration: none;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    & .license{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        width: 100%;
+        align-items: center;
+
+        & .line{
+            border: 0.75px solid #000;
+            width: 100%;
+        }
+
+        & a{
+            font-size: 13.5px;
+            text-decoration: none;
+            line-height: 22.5px;
+            color: #000;
         }
     }
 }
