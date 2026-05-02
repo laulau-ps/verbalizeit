@@ -228,7 +228,7 @@ body {
         }
     }
 
-    & .line{
+    & .line {
         width: 100%;
         border: 0.75px solid #a8a8a8;
         margin-top: 60px;
@@ -282,30 +282,90 @@ body {
             background-color: #fff0bf;
             gap: 28px;
             justify-content: flex-start;
-            
 
-            & img{
+
+            & img {
                 max-width: 400px;
                 height: auto;
             }
 
-            & .text{
+            & .text {
                 margin-bottom: auto;
                 display: flex;
                 flex-direction: column;
                 gap: 29px;
                 align-items: center;
 
-                & h2{
+                & h2 {
                     font-size: 27px;
                     font-weight: 700;
                     line-height: 31.5px;
                 }
 
-                & p{
+                & p {
                     font-size: 15px;
                     line-height: 22.5px;
                 }
+            }
+        }
+    }
+}
+
+.services-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 37.5px;
+    padding: 0px 105px;
+    margin-top: 130px;
+    width: 100%;
+    align-items: center;
+
+    & .heading {
+        max-width: 885px;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        justify-content: center;
+        align-items: center;
+
+        & h2 {
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 64.5px;
+            white-space: nowrap;
+        }
+
+        & p {
+            font-size: 16.5px;
+            line-height: 27px;
+        }
+    }
+
+    & img{
+        max-width: 1230px;
+        height: auto;
+    }
+
+    & .bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        & div{
+            display: flex;
+            flex-direction: column;
+            gap: 8.25px;
+
+            & h2{
+                font-family: "Manrope";
+                font-size: 90px;
+                font-weight: 700;
+                letter-spacing: -3px;
+            }
+
+            & p{
+                font-size: 16.5px;
+                line-height: 27px;
             }
         }
     }
